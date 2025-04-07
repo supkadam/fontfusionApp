@@ -2,12 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 #heading{
-  font-size: 50px;
-  color: crimson;
-  text-shadow: 3px 3px 5px black, 3px 3px 2px blue, 3px 3px 3px lightblue;
+  font-family:'Pacifico', cursive;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  color: azure;
 }
 
 .parent{
@@ -15,6 +19,11 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px 4px 20px 4px;
+  row-gap: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
 }
 
 #textContent{
@@ -22,7 +31,11 @@
   width:350px;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid black;
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
 }
 
 #child1{
@@ -39,51 +52,103 @@
   width: fit-content;
   height: 40px;
   padding: 2px 5px 2px 5px;
-  background-color: rgb(216, 82, 82);
+  background-color: #865DFF;
   border: none;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
+  color: white;
+  
 }
 
 #red{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: red;
   border: none;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 #green{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: green;
   border: none;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 #yellow{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: yellow;
   border: none;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 #blue{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: blue;
   border: none;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 #purple{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: purple;
   border: none;
   cursor: pointer;
+  border-radius: 50%;
+}
+
+#burlywood{
+  width: 25px;
+  height: 25px;
+  background-color: burlywood;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#violet{
+  width: 25px;
+  height: 25px;
+  background-color: violet;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#chocolate{
+  width: 25px;
+  height: 25px;
+  background-color:chocolate ;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#darkturquoise{
+  width: 25px;
+  height: 25px;
+  background-color:darkturquoise ;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#maroon{
+  width: 25px;
+  height: 25px;
+  background-color:maroon ;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 #child2{
@@ -97,6 +162,7 @@
 #textcolors-name{
   display: flex;
   column-gap: 10px;
+  padding: 25px;
 }
 
 #text-colors{
@@ -112,3 +178,153 @@
   row-gap: 10px;
   flex-wrap: wrap;
 }
+
+#outerDiv{
+  background: linear-gradient(135deg, #A3A1FF, #70C9E3);
+  width: 100vw;
+  height: 100vh;
+}
+
+#font-cells{
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
+}
+
+#times-new{
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+
+}
+
+#cursive{
+  font-family: cursive;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+#verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+#arial{
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+#impact{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+#fantasy{
+  font-family: fantasy;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+#colorPicker{
+  visibility: hidden;
+  position: absolute;
+}
+
+#bcolorPicker{
+  visibility: hidden;
+  position: absolute;
+}
+
+#pic1{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic2{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic3{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic4{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic5{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic6{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#pic7{
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#bg-pic-cells{
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
+
+}
+
+#buttonsDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+
+#resetBtn{
+  width: fit-content;
+  height: 40px;
+  padding: 2px 5px 2px 5px;
+  background-color: #865DFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+
+
